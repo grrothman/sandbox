@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0     1. cd into the cage you want to work in (smarter pays, zoo, etc.)\
+\
+2. git status\
+          - check the general status of where things are at. this will tell you what branch you are currently working on.\
+\
+3.  git checkout master \
+          - this will switch your branch over to the \'91master branch\'92.\
+\
+4. git fetch \
+          - this will pull down the latest version of the branch you are currently on into your machine. it will NOT overwrite anything, though.\
+\
+5. git rebase origin/master\
+          - this will overwrite your current version of the cage your in with the master branch you just pulled down from the server. \
+\
+6. git checkout -b [name of your new branch]\
+          - this will create a branch with your changes on it\
+\
+7. subl .\
+          - make your changes\
+          - to whatever file you want to update\
+7.5) git add [filename where changes were made]\
+	-separately for each file that was changed (ideally only one each time)\
+\
+8. git commit -m \'93[comment about the changes you\'92re going to make]\'94\
+          - this will add a comment to what you\'92re doing\
+\
+9. git push origin [name of your new branch] \
+          - this pushes your change up to github. find your branch, \'93click \'93create pull request\'94, copy it, and send it out for approval/PQA from someone on the analyst team before an engineer goes through and actually merges it, since we\'92re not supposed to actually merge anything into the production database.\
+          note: if you need to force, add a -f after the push\
+\
+\
+If you mess something up and need to make a correction..\
+1. Make the correction in sublime. \
+2. git add "[file name, not the branch name - the file you are editing]"\
+3. git commit \'97amend \
+4. git push origin [branch name] -f\
+\
+\
+How to squash commits:\
+git rebase -i HEAD~# of commits to squash together\
+In editor change to fixup, and then\
+ctrl x ctrl s to save\
+ctrl x ctrl c to exit out of editor\
+git push -f origin branch_name\
+\
+You should be using --amend, until you need to amend to a commit that's not the most recent.\
+     - If I need to amend to a not most recent commit.. ask another analyst/engineer/parker}
