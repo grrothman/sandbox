@@ -1,0 +1,459 @@
+NCIC_Uniform_Offense_Classifications ,ucr_ncic_code,nibrs_Code
+SOVEREIGNTY,,
+Treason ,101,
+Treason Misprison ,102,
+Espionage ,103,
+Sabotage ,104,
+Sedition ,105,
+Selective Service ,106,
+Sovereignty ,199,
+MILITARY (Use restricted to FBI and Military Agencies),,
+Military Desertion ,201,
+Military ,299,
+IMMIGRATION,,
+Illegal Entry ,301,
+False Citizenship ,302,
+Smuggling Aliens ,303,
+Immigration ,399,
+HOMICIDE,,
+Homicide - Willful Kill-Family-Gun ,901,09A
+Homicide - Willful Kill-Family-Weapon (identify weapon in MIS Field) ,902,09A
+Homicide - Willful Kill-Nonfamily-Gun ,903,09A
+Homicide - Willful Kill-Nonfamily-Weapon (identify weapon in MIS Field) ,904,09A
+Homicide - Willful Kill-Pub Off-Gun ,905,09A
+Homicide - Willful Kill-Pub Off-Weapon (identify weapon in MIS Field) ,906,09A
+Homicide - Willful Kill-Pol Off-Gun ,907,09A
+Homicide - Willful Kill-Pol Off-Weapon (identify weapon in MIS Field) ,908,09A
+Homicide - Neglig Mansl-Veh ,909,
+Homicide - Neglig Mansl-Weapon (identify weapon in MIS Field) ,910,09B
+Homicide - Willful Kill-Gun ,911,09A
+Homicide - Willful Kill-Weapon (identify weapon in MIS Field) ,912,09A
+Homicide - John or Jane Doe - No Warrant ,913,
+Homicide (Use the MIS Field to further describe offense) ,999,
+KIDNAPING,,
+Kidnap Minor For Ransom ,1001,100
+Kidnap Adult For Ransom ,1002,100
+Kidnap Minor To Sexually Asslt ,1003,100
+Kidnap Adult To Sexually Asslt ,1004,100
+Kidnap Minor ,1005,100
+Kidnap Adult ,1006,100
+Kidnap Hostage For Escape ,1007,100
+Abduct - No Ransom or Asslt ,1008,100
+Kidnap - Hijack Aircraft ,1009,100
+Kidnaping (Use the MIS Field to further describe offense) ,1099,100
+SEXUAL ASSAULT,,
+Rape - Gun ,1101,11A
+Rape With Weapon (identify weapon in MIS Field) ,1102,11A
+Rape - Strongarm ,1103,11A
+Sex Asslt - Sodomy-Boy-Gun ,1104,11B
+Sex Asslt - Sodomy-Man-Gun ,1105,11B
+Sex Asslt - Sodomy-Girl-Gun ,1106,11B
+Sex Asslt - Sodomy-Woman-Gun ,1107,11B
+Sex Asslt- Sodomy-Boy-weapon (identify weapon in MIS Field) ,1108,11B
+Sex Asslt- Sodomy-Man-weapon (identify weapon in MIS Field) ,1109,11B
+Sex Asslt - Sodomy-Girl-Weapon (identify weapon in MIS Field) ,1110,11B
+Sex Asslt - Sodomy-Woman-Weapon (identify weapon in MIS Field) ,1111,11B
+Sex Asslt - Sodomy-Boy-Stgarm ,1112,11B
+Sex Asslt - Sodomy-Man-Stgarm ,1113,11B
+Sex Asslt - Sodomy-Girl-Stgarm ,1114,11B
+Sex Asslt - Sodomy-Woman-Stgarm ,1115,11B
+Stat Rape - No Force ,1116,36B
+Sex Asslt - Carnal Abuse ,1117,
+Sex Asslt (Use the MIS Field to further describe offense) ,1199,
+ROBBERY,,
+Robbery - Business-Gun ,1201,120
+Robbery - Business-Weapon (identify weapon in MIS Field) ,1202,120
+Robbery - Business-Stgarm ,1203,120
+Robbery - Street-Gun ,1204,120
+Robbery - Street-Weapon (identify weapon in MIS Field) ,1205,120
+Robbery - Street-Stgarm ,1206,120
+Robbery - Resid-Gun ,1207,120
+Robbery - Resid-Weapon (identify weapon in MIS Field) ,1208,120
+Robbery - Resid-Stgarm ,1209,120
+Forcible Purse Snatching ,1210,120
+Robbery - Banking-Type Inst ,1211,120
+Carjacking - Armed ,1212,
+Robbery (Use the MIS Field to further describe offense) ,1299,120
+ASSAULT,,
+Aggrav Asslt - Family-Gun ,1301,13A
+Aggrav Asslt - Family-Weapon (identify weapon in MIS Field) ,1302,13A
+Aggrav Asslt - Family-Stgarm ,1303,13A
+Aggrav Asslt - Nonfamily-Gun ,1304,13A
+Aggrav Asslt - Nonfamily-Weapon (identify weapon in MIS Field) ,1305,13A
+Aggrav Asslt - Nonfamily-Stgarm ,1306,13A
+Aggrav Asslt - Pub Off-Gun ,1307,13A
+Aggrav Asslt - Pub Off-Weapon (identify weapon in MIS Field) ,1308,13A
+Aggrav Asslt - Pub Off-Stgarm ,1309,13A
+Aggrav Asslt - Pol Off-Gun ,1310,13A
+Aggrav Asslt - Pol Off-Weapon (identify weapon in MIS Field) ,1311,13A
+Aggrav Asslt - Pol Off-Stgarm ,1312,13A
+Simple Asslt ,1313,13B
+Aggrav Asslt - Gun ,1314,13A
+Aggrav Asslt - Weapon (identify weapon in MIS Field) ,1315,13A
+Intimidation (includes stalking) ,1316,13C
+Assault (Use the MIS Field to further describe offense) ,1399,
+ABORTION,,
+Abortional Act on Other ,1401,
+Abortional Act on Self ,1402,
+Submission To Abortional Act ,1403,
+"Abortifacient (selling, mfg., delivering, etc.) ",1404,
+Abortion (Use the MIS Field to further describe offense) ,1499,
+THREATS,,
+"Threat-Federal Protectees (President, Vice President, etc) ",1601,
+Threat-Terroristic - State Offenses ,1602,
+MATERIAL WITNESS,,
+State/Local - Material Witness ,1701,
+Federal - Material Witness ,1702,
+ARSON,,
+Arson - Business-Endangered Life ,2001,200
+Arson - Resid-Endangered Life ,2002,200
+Arson- Business-Defraud Insurer ,2003,200
+Arson - Resid-Defraud Insurer ,2004,200
+Arson- Business ,2005,200
+Arson- Resid ,2006,200
+Burning Of-(identify object in MIS Field) ,2007,200
+Arson- Pub-Bldg-Endangered Life ,2008,200
+Arson- Pub-Bldg ,2009,200
+Arson (Use the MIS Field to further describe offense) ,2099,200
+EXTORTION,,
+Extort - Threat Injure Person ,2101,210
+Extort - Threat Damage Prop ,2102,210
+Extort - Threat Injure Reputation ,2103,210
+Extort - Threat Accuse Person of Crime ,2104,210
+Extort - Threat of Informing of Vio ,2105,210
+Extortion (Use the MIS Field to further describe offense) ,2199,210
+BURGLARY,,
+Burgl - Safe-Vault ,2201,220
+Burgl - Forced Entry-Resid ,2202,220
+Burgl - Forced Entry-Nonresid ,2203,220
+Burgl - No Forced Entry-Resid ,2204,220
+Burgl - No Forced Entry-Nonresid ,2205,220
+Burgl Tools - Possess ,2206,
+Burgl - Banking-Type Inst ,2207,220
+Burglary (Use the MIS Field to further describe offense) ,2299,220
+LARCENY,,
+Pocketpicking ,2301,23A
+Purse Snatching - No Force ,2302,23B
+Shoplifting ,2303,23C
+Larc - Parts From Veh ,2304,23G
+Larc - From Auto ,2305,23F
+Larc - From Shipment ,2306,23H
+Larc - From Coin Machine ,2307,23E
+Larc - From Bldg ,2308,23D
+Larc - From Yards ,2309,23H
+Larc- From Mails ,2310,23H
+Larc - From Banking-Type Inst ,2311,23D
+Larc - From Interstate Shipment ,2312,23H
+Obstruct Correspondence (postal violation) ,2313,23H
+Theft of US Govt Prop ,2314,23H
+Larc On US Govt Reserv ,2315,23H
+Larc - Postal ,2316,23H
+Larceny (Use the MIS Field to further describe offense) ,2399,
+"STOLEN VEHICLE (theft. sale. receipt, etc.)",,
+Theft And Sale Veh ,2401,240
+Theft And Sale Veh ,2402,240
+Theft And Use Veh other Crime ,2403,240
+Vehicle Theft ,2404,240
+Theft Veh By Bailee ,2405,240
+Receive Stolen Veh ,2406,
+Strip Stolen Veh ,2407,23G
+Possess Stolen Veh ,2408,240
+Interstate Transp Stolen Veh ,2409,
+Aircraft Theft ,2410,23H
+Unauth Use of Veh (includes joy riding) ,2411,240
+Stolen Vehicle (Use the MIS Field to further describe offense) ,2499,240
+FORGERY (COUNTERFEITING),,
+Forgery Of Checks ,2501,250
+Forgery Of-(identify object in MIS Field) ,2502,250
+Counterfeiting Of-(identify object in MIS Field) ,2503,250
+Pass Forged,2504,250
+Pass Counterfeited,2505,250
+Possess Forged-(identify object in MIS Field) ,2506,250
+Possess Counterfeited-(identify object in MIS Field) ,2507,250
+Possess Tools For Forgery/Counterfeiting ,2508,
+Transport Forged-(identify object in MIS Field) ,2509,250
+Transport Counterfeited-(identify object in MIS Field) ,2510,250
+Transport Tools For Forgery/Counterfeiting ,2511,
+Forgery (Use the MIS Field to further describe offense) ,2589,250
+Counterfeiting (Use the MIS Field to further describe offense) ,2599,250
+FRAUDULENT ACTIVITIES,,
+Fraud - Confidence Game ,2601,26A
+Fraud - Swindle ,2602,26A
+Mail Fraud ,2603,26A
+Fraud - Imperson ,2604,26C
+Fraud - Illeg Use Credit Cards ,2605,26B
+Fraud - Insuff Funds Check ,2606,90A
+Fraud - False Statement ,2607,26A
+Fraud By Wire ,2608,26E
+Fraud and Abuse - Computer ,2609,
+Fraud (Use the MIS Field to further describe offense) ,2699,26A
+EMBEZZLEMENT,,
+Embezzle - Business Prop ,2701,270
+Embezzle - Interstate Shipment ,2702,270
+Embezzle - Banking-Type Inst ,2703,270
+"Embezzle - Public Prop (U.S., state, city prop.) ",2704,270
+Embezzle- Postal ,2705,270
+Embezzle (Use the MIS Field to further describe offense) ,2799,270
+STOLEN PROPERTY,,
+Sale of Stolen Prop ,2801,280
+Transport Interstate Stolen Prop ,2802,280
+Receive Stolen Prop ,2803,280
+Possess Stolen Prop ,2804,280
+Conceal Stolen Prop ,2805,280
+Stolen Property (Use the MIS Field to further describe offense) ,2899,280
+DAMAGE PROPERTY,,
+Damage Prop - Business ,2901,290
+Damage Prop - Private ,2902,290
+Damage Prop - Public ,2903,290
+Damage Prop - Business-With Explosive ,2904,290
+Damage Prop - Private-With Explosive ,2905,290
+Damage Prop - Public-With Explosive ,2906,290
+Damage Property (Use the MIS Field to further describe offense) ,2999,290
+DANGEROUS DRUGS,,
+Hallucinogen - Mfr (NOT TO INCLUDE MARIJUANA) ,3501,35A
+Hallucinogen - Distrib (NOT TO INCLUDE MARIJUANA) ,3502,35A
+Hallucinogen - Sell (NOT TO INCLUDE MARIJUANA) ,3503,35A
+Hallucinogen - Possess (NOT TO INCLUDE MARIJ0lANA) ,3504,35A
+Hallucinogen - (NOT TO INCLUDE MARIJUANA),,
+(Use the MIS Field to further describe offense) ,3505,35A
+Heroin - Sell ,3510,35A
+Heroin - Smuggle ,3511,35A
+Heroin - Possess ,3512,35A
+Heroin (Use the MIS Field to further describe offense) ,3513,35A
+Opium Or Deriv - Sell ,3520,35A
+Opium Or Deriv - Smuggle ,3521,35A
+Opium Or Deriv - Possess ,3522,35A
+Opium Or Deriv (Use the MIS Field to further describe offense) ,3523,35A
+Cocaine - Sell ,3530,35A
+Cocaine - Smuggle ,3531,35A
+Cocaine - Possess ,3532,35A
+Cocaine (Use the MIS Field to further describe offense) ,3533,35A
+Synth Narcotic - Sell ,3540,35A
+Synth Narcotic - Smuggle ,3541,35A
+Synth Narcotic - Possess ,3542,35A
+Synth Narcotic (Use the MIS Field to further describe offense) ,3543,35A
+Narcotic Equip - Possess ,3550,35B
+Marijuana - Sell ,3560,35A
+Marijuana - Smuggl ,3561,35A
+Marijuana - Possess ,3562,35A
+Marijuana - Producing ,3563,35A
+Marijuana (Use the MIS Field to further describe offense) ,3564,35A
+Amphetamine - Mfr ,3570,35A
+Amphetamine - Sell ,3571,35A
+Amphetamine - Possess ,3572,35A
+Amphetamine (Use the MIS Field to further describe offense) ,3573,35A
+Barbiturate - Mfr ,3580,35A
+Barbiturate - Sell ,3581,35A
+Barbiturate - Possess ,3582,35A
+Barbiturate (Use the MIS Field to further describe offense) ,3583,35A
+Dangerous Drugs (Use the MIS Field to further describe offense) ,3599,35A
+SEX OFFENSES (Not involving sexual assault or commercialized sex),,
+Sex Offense - Against Child-Fondling ,3601,11D
+Homosexual Act With Girl ,3602,
+Homosexual Act With Boy ,3603,
+Incest With Minor ,3604,36A
+Indecent Exposure ,3605,
+Bestiality ,3606,36A
+Incest With Adult ,3607,
+Seduction Of Adult ,3608,
+Homosexual Act With Woman ,3609,
+Homosexual Act With Man ,3610,
+Peeping Tom ,3611,90H
+Sex Offense (Use the MIS Field to further describe offense) ,3699,
+OBSCENITY,,
+Obscene Material ,3700,370
+Obscene Material - Mfr ,3701,370
+Obscene Material - Sell ,3702,370
+Obscene Material - Mailing ,3703,370
+Obscene Material - Possess ,3704,370
+Obscene Material - Distrib ,3705,370
+Obscene Material - Transport ,3706,370
+Obscene Communication ,3707,
+Obscenity (Use the MIS Field to further describe offense) ,3799,370
+FAMILY OFFENSES,,
+Neglect Family ,3801,90F
+Cruelty Toward Child ,3802,90F
+Cruelty Toward Wife ,3803,90F
+Bigamy ,3804,
+Contrib Delinq Minor ,3805,
+Neglect Child (includes nonsupport of child) ,3806,90F
+Nonpayment Of Alimony ,3807,90F
+Nonsupport Of Parent ,3808,90F
+Family Offense (Use the MIS Field to further describe offense) ,3899,90F
+GAMBLING,,
+Bookmaking ,3901,39B
+Card Game - Operating ,3902,39B
+Card Game ,3904,39B
+Dice Game - Operating ,3905,39B
+Dice Game ,3907,39B
+Gambling Device - Possess ,3908,39C
+Gambling Device - Transport ,3909,39C
+Gambling Device - Not Registered ,3910,39C
+Gambling Device ,3911,39C
+Gambling Goods - Possess ,3912,39C
+Gambling Goods - Transport ,3913,39C
+Gambling Goods ,3914,39C
+Lottery - Operating ,3915,39B
+Lottery - Runner ,3916,39B
+Lottery ,3918,39B
+Sports Tampering ,3919,39D
+Transmit Wager Information ,3920,39B
+Establish Gambling Place ,3921,39B
+Gambling (Use the MIS Field to further describe offense) ,3999,
+COMMERCIALIZED SEXUAL OFFENSES,,
+Keeping House III Fame ,4001,40B
+Procure For Prostitute (pimping) ,4002,40B
+Commercial Sex - Homosexual Prostitution ,4003,40A
+Prostitution ,4004,40A
+Frequent House III Fame ,4005,
+Trnsp Female Interstate for Immoral Purp ,4006,40B
+Commercial Sex (Use the MIS Field to further describe offense) ,4099,40B
+LIQUOR (Not to include tax and revenue matters or driving under the influence of liquor),,
+Liquor - Mfr ,4101,90G
+Liquor - Sell ,4102,90G
+Liquor -Transport ,4103,90G
+Liquor - Possess ,4104,90G
+Liquor (Use the MIS Field to further describe offense) ,4199,90G
+OBSTRUCTING THE POLICE,,
+Resisting Officer ,4801,
+Obstruct Criminal Invest ,4802,
+Making False Report ,4803,
+Evidence - Destroying ,4804,
+Witness - Dissuading ,4805,
+Witness - Deceiving ,4806,
+Refusing To Aid Officer ,4807,
+Compounding Crime ,4808,
+Unauth Communication With Prisoner ,4809,
+Illegal Arrest ,4810,
+Crossing Police Lines ,4811,
+Failure Report Crime ,4812,
+Failing to Move On ,4813,
+Obstruct Police (Use the MIS Field to further describe offense) ,4899,
+FLIGHT- ESCAPE,,
+Escape-(identify type of institution in the MIS Field),,
+(Enter date of escape in Date of Warrant (Dow) Field.) ,4901,
+"Flight To avoid-(prosecution, confinement, etc.) ",4902,
+Aiding Prisoner Escape (identify of type institution in MIS Field) ,4903,
+Harboring Escape/Fugitive ,4904,
+Flight-Escape (Use the MIS Field to further describe offense) ,4999,
+"OBSTRUCTING JUDICIARY, CONGRESS, LEGISLATURE, OR A COMMISSION",,
+Bail - Secured Bond ,5001,
+Bail - Personal Recog ,5002,
+Perjury ,5003,
+Perjury - Subornation of ,5004,
+Contempt Of Court ,5005,
+Obstructing Justice ,5006,
+Obstructing Court Order ,5007,
+Misconduct - Judic Officer ,5008,
+Contempt Of Congress ,5009,
+Contempt Of Legislature ,5010,
+Parole Violation ,5011,
+Prob Violation ,5012,
+Condit Release Violation ,5013,
+Mandatory Release Violation ,5014,
+Failure To Appear ,5015,
+"Obstruct-(specify Judic, Congr, Legis, Commsn) ",5099,
+BRIBERY,,
+Bribe - Giving ,5101,510
+Bribe - Offering ,5102,510
+Bribe - Receiving ,5103,510
+Bribe (Use the MIS Field to further describe offense) ,5104,510
+Conflict Of Interest ,5105,510
+Gratuity - Giving ,5106,510
+Gratuity - Offering ,5107,510
+Gratuity - Receiving ,5108,510
+Gratuity (Use the MIS Field to further describe offense) ,5109,510
+Kickback - Giving ,5110,510
+Kickback - Offering ,5111,510
+Kickback - Receiving ,5112,510
+Kickback (Use the MIS Field to further describe offense) ,5113,510
+Bribery (Use the MIS Field to further describe offense) ,5199,510
+WEAPON OFFENSES,,
+Altering Identification On Weapon (specify weapon in MIS Field) ,5201,520
+Carrying Concealed Weapon (specify weapon in MIS Field) ,5202,520
+Carrying Prohibited Weapon (specify weapon in MIS Field) ,5203,520
+Explosives - Teaching Use (specify in MIS Field) ,5204,520
+Explosives - Transporting (specify in MIS Field) ,5205,520
+Explosives - Using (specify in MIS Field) ,5206,520
+Incendiary Device - Possess (specify in MIS Field) ,5207,520
+Incendiary Device - Using (specify in MIS Field) ,5208,520
+Incendiary Device - Teaching Use (specify in MIS Field) ,,520
+(Do not use if ARSON) ,5209,520
+Licensing - Registration Weapon (specify weapon in MIS Field) ,5210,520
+Explosives - Possessing (specify in MIS Field) ,5211,520
+Possession Of Weapon (specify weapon in MIS Field) ,5212,520
+Firing Weapon (specify weapon in MIS Field) ,5213,520
+Selling Weapon (specify weapon in MIS Field) ,5214,520
+Threat To Bomb (specify in MIS Field) ,5215,13C
+Threat To Burn (specify in MIS Field) ,5216,13C
+Weapon Offense (Use the MIS Field to further describe offense) ,5299,520
+PUBLIC PEACE,,
+Anarchism ,5301,
+Riot - Inciting ,5302,
+Riot - Engaging In ,5303,
+Riot - Interfere Firearm ,5304,
+Riot - Interfere Officer ,5305,
+Riot (Use the MIS Field to further describe offense) ,5306,
+Assembly - Unlawful ,5307,
+Harassing Communication ,5309,
+Desecrating Flag ,5310,90C
+Disord Conduct (specify conduct) ,5311,90C
+Public Peace (Use the MIS Field to further describe offense) ,5399,90C
+TRAFFIC OFFENSES,,
+Hit And Run ,5401,
+Transp Dangerous Material ,5402,
+Driving Under Influence Drugs ,5403,90D
+Driving Under Influence Liquor ,5404,90D
+Traffic Offense (Use the MIS Field to further describe offense) ,5499,
+HEALTH - SAFETY,,
+Drugs - Adulterated ,5501,
+Drugs - Misbranded ,5502,
+Drugs - Health or Safety ,5503,
+Food - Adulterated ,5510,
+Food - Misbranded ,5511,
+Food - Health or Safety ,5512,
+Cosmetics - Adulterated ,5520,
+Cosmetics - Misbranded ,5521,
+Cosmetics - Health or Safety ,5522,
+Health - Safety (Use the MIS Field to further describe offense) ,5599,
+CIVIL RIGHTS,,
+Civil Rights (Use the MIS Field to further describe offense) ,5699,
+INVASION OF PRIVACY,,
+Divulge Eavesdrop Info ,5701,
+Divulge Eavesdrop Order ,5702,
+Divulge Message Contents ,5703,
+Eavesdropping (Use the MIS Field to further describe offense) ,5704,
+Eavesdrop Equip (Use the MIS Field to further describe offense) ,5705,
+Opening Sealed Communication ,5706,
+Trespassing (Use the MIS Field to further describe offense) ,5707,90J
+Wiretap - Failure To Report ,5708,
+Invade Privacy (Use the MIS Field to further describe offense) ,5799,
+SMUGGLING,,
+Smuggle Contraband (specify type in MIS Field) ,5801,
+Smuggle Contraband Into Prison (specify type in MIS Field) ,5802,
+Smuggle To Avoid Paying Duty (specify type in MIS Field) ,5803,
+Smuggling (Use the MIS Field to further describe offense) ,5899,
+ELECTION LAWS,,
+Election Laws (Use the MIS Field to further describe offense) ,5999,
+ANTITRUST,,
+Antitrust (Use the MIS Field to further describe offense) ,6099,
+TAX REVENUE,,
+Income Tax (Use the MIS Field to further describe offense) ,6101,
+Sales Tax (Use the MIS Field to further describe offense) ,6102,
+Liquor Tax (Use the MIS Field to further describe offense) ,6103,
+Tax Revenue (Use the MIS Field to further describe offense) ,6199,
+CONSERVATION,,
+Conservation - Animals (Use the MIS Field to further describe offense) ,6201,
+Conservation - Fish (Use the MIS Field to further describe offense) ,6202,
+Conservation - Birds (Use the MIS Field to further describe offense) ,6203,
+Conservation - License-Stamp (Use the MIS Field to further describe offense) ,6204,
+Conservation - Environment (Use the MIS Field to further describe offense) ,6205,
+Conservation (Use the MIS Field to further describe offense) ,6299,
+CRIMES AGAINST PERSON ,7099,
+PROPERTY CRIMES ,7199,
+MORALS - DECENCY CRIMES ,7299,
+PUBLIC ORDER CRIMES ,7399,
+JUVENILE OFFENDERS,,
+Escape From Custody ,8100,
+Abscond While On Parole ,8101,
+Abscond While On Probation ,8102,
