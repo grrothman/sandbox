@@ -24,13 +24,30 @@ d.code.singles <- d.code[frequency==1]
 
 d.code.refs.orig <- as.data.table(read.csv('~/Documents/sandbox/D3_shtuff/crime_data_scratch/NCIC codes ref.csv'))
 d.code.refs <- copy(d.code.refs.orig)
+d.code.refs[, NCIC_Uniform_Offense_Classifications := as.character(NCIC_Uniform_Offense_Classifications),]
 d.code.refs[,row.num := .I,]
-d.code.categs <- d.code.refs[toupper(NCIC_Uniform_Offense_Classifications)==NCIC_Uniform_Offense_Classifications]
-d.code.categs[,categ.id := .I,] #rownum=id
-d.code.categs[,row.num := NULL,]
-d.code.refs <- merge(d.code.refs,d.code.categs,c('NCIC_Uniform_Offense_Classifications','ucr_ncic_code','nibrs_Code'), all.x=TRUE)
+d.code.categs <- d.code.refs[toupper(substr(NCIC_Uniform_Offense_Classifications,1,3))==substr(NCIC_Uniform_Offense_Classifications,1,3)]
+setnames(d.code.categs, "NCIC_Uniform_Offense_Classifications", "Offense_Category")
+
+#d.code.categs[,row.num := NULL,]
+d.code.refs <- merge(d.code.refs,d.code.categs[,row.num,list(Offense_Category)],'row.num', all.x=TRUE)
 d.code.refs <- d.code.refs[order(row.num)]
-#copy categ.id down where categ.id is.na and .I-1 !is.na
 
 
+prev.row <- NA
+for (i in seq(1,d.code.refs[,.N])) {
+  current.row.categ <- d.code.refs$Offense_Category[i]
+  
+  if (is.na(current.row.categ) & !(is.na(prev.row.categ))){
+    d.code.refs$Offense_Category[i] <- prev.row.categ
+  }
+  
+  prev.row.categ <- d.code.refs$Offense_Category[i]
 
+}
+
+d.code.refs <- d.code.refs[!(is.na(ucr_ncic_code))]
+d.code.refs[,row.num := NULL,]
+
+
+d.code.refs[1:20]
